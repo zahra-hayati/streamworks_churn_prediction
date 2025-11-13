@@ -1,0 +1,21 @@
+name: streamworks-churn
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - jupyter
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - ipykernel
+  - openpyxl
+  - pip
+  - pip:
+      - plotly
+      - missingno
